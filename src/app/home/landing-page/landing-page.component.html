@@ -1,0 +1,7 @@
+<div class="container" *ngIf="jokeObject">
+  <h3 class="text-muted">Daily dose of DadJokes</h3>
+  <div id="joke" class="joke">{{ jokeObject.joke }}</div>
+  <button id="jokeBtn" class="btn" (click)="generateJoke()">
+    Next Joke please
+  </button>
+</div>

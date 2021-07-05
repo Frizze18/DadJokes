@@ -1,0 +1,43 @@
+.container {
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.308), 0 6px 6px rgba(0, 0, 0, 0.301);
+  padding-top: 1.25rem;
+  padding-bottom: 0;
+  text-align: center;
+  max-width: 100%;
+  width: 50rem;
+}
+
+h3 {
+  margin: 0;
+  opacity: 0.65;
+  letter-spacing: 2px;
+}
+
+.joke {
+  font-size: 30px;
+  line-height: 40px;
+  margin: 2rem auto;
+  max-width: 75%;
+}
+
+.btn {
+  border-radius: 0 0 1rem 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.308), 0 6px 6px rgba(0, 0, 0, 0.301);
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  background-color: #001c69da;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn:focus {
+  outline: 0;
+}
+.btn:hover {
+  background-color: #0044fdda;
+}
